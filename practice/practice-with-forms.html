@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Practice with forms</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        form > div {
+            padding: 5px;
+            border-top:1px dotted blue;
+            
+
+
+        }
+        form div label{
+            vertical-align: top;
+        }
+        form div .wide-label,
+        form div input[type="text"],
+        form div input[type="password"], 
+        form div input[type="email"], 
+        form div select,
+        form div textarea               {
+            display: inline-block;
+            width: 28%; 
+            
+
+
+
+            
+
+
+        }
+        form div span{
+            color: red;
+            font-style: italic;
+            font-weight: bold;
+        }
+        
+    </style>
+</head>
+<body>
+<form action="action-page.html">
+
+    <div>
+    <label for="fn"class="wide-label"><span>firstname</span></label>
+    
+    <input type="text" name="firstname" id="fn"placeholder="Enter your name">
+     </div>
+     <div>
+     <label for="ln"class="wide-label"><span>lastname</span></label>
+
+    <input type="text" name="lastname" id="ln"placeholder="Enter your last name">
+    </div>
+    <div>
+    <label for="email"class="wide-label">email</label>
+
+    <input type="email" name="email" id="em"placeholder="example@gmail.com">
+    </div>
+    <div>
+    <label for="password"class="wide-label">password</label>
+
+    <input type="password" name="password" id="pw" required placeholder="password must be 10 character">
+    </div>
+
+<div >
+        <div class="wide-label"></div>
+
+        <select name="dropdown" id="dropdown">
+            <option value="1">Dropdown option Number1</option>
+            <option value="2">Dropdown option Number2</option>
+            <option value="3">Dropdown option Number3</option>
+            <option value="3">Dropdown option Number4</option>
+        </select>
+    </div>
+    <div>
+    <label for="Large-input"class="wide-label">Comment</label>
+    <textarea name="Large-input" id="Large-input" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="divided" id="divided">
+        <label for="divided">divided</label>
+        
+    </div>
+
+
+    <div>
+
+        <input type="checkbox" name="add-me" id="add-me"checked>
+        
+        <label for="add-me">Add me to your mailing list</label>
+    </div>
+    
+    <div>
+
+        <input type="checkbox" name="agree-to terms" id="agree-to-terms">
+        <label for="agree-to terms">I agree to the terms and conditions of this website</label>
+    </div>
+    
+    <div>
+        <input type="submit" value="Send">
+    </div>
+
+</form>
+
+</body>
+</html>

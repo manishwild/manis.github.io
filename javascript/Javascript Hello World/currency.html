@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Euro</title>
+    <script>
+            function convert(param){
+                if(param==1){
+                    let num=document.getElementById("currency").value;
+                    let ratio=1.11;
+                    document.getElementById("result").value=Number(num)*ratio;
+                }
+                else{
+                    let num=document.getElementById("currency").value;
+                    let ratio=1.11;
+                    document.getElementById("result").value=Number(num)/ratio;
+                }
+
+                
+
+
+                }
+              
+            </script>
+</head>
+<body>
+        <input id="currency" type="number" placeholder="currency">
+      
+        <button onclick="convert(1)">To Dollar</button>
+    
+        <button onclick="convert(2)">To euro</button>
+
+        <input type="number" id="result" placeholder="Result">
+    
+        
+       
+</body>
+</html>

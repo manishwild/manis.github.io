@@ -1,0 +1,29 @@
+body{
+    background: antiquewhite;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+
+}
+p {
+    font-size: 20px;
+}
+p strong{
+    color:blue;
+}
+p b,
+p i ,
+p del
+{
+    color: red;
+}
+h1 {
+    font-size: 50px;
+}
+/* css class can be very useful*/
+.big-text{
+
+    font-size: 32px;
+}

@@ -1,0 +1,29 @@
+body{
+    background: blue;
+    margin: 0px 10px;
+    padding: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style:bold;
+
+}
+p {
+    font-size: 22px;
+}
+p strong{
+    color:green;
+}
+p b,
+p i ,
+p del,
+{
+    color:yellowgreen;
+}
+h1 {
+    font-size: 40px;
+}
+/* css class can be very useful*/
+.big-text{
+
+    font-size: 36px;
+}

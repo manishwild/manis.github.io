@@ -1,0 +1,47 @@
+void setup() {
+  // put your setup code here, to run once:
+pinMode(13, OUTPUT);
+pinMode(12, OUTPUT);
+pinMode(11, OUTPUT);
+pinMode(10, OUTPUT);
+pinMode(9, OUTPUT);
+pinMode(A0, OUTPUT);
+pinMode(A1, OUTPUT);
+pinMode(A2, OUTPUT);
+}
+
+void loop() {
+  analogWrite(A0,168);
+  analogWrite(A1,96);
+  analogWrite(A2,50);
+  delay(500);
+  analogWrite(A0,50);
+  analogWrite(A1,90);
+  analogWrite(A2,168);
+  delay(500);
+  analogWrite(A0,50);
+  analogWrite(A1,168);
+  analogWrite(A2,60);
+  delay(500);
+  // put your main code here, to run repeatedly:
+  digitalWrite(13, HIGH);
+  delay(100);
+  digitalWrite(13, LOW);
+  delay(100);
+  digitalWrite(12, HIGH);
+  delay(100);
+  digitalWrite(12, LOW);
+  delay(100);
+  digitalWrite(11, HIGH);
+  delay(100);
+  digitalWrite(11, LOW);
+  delay(100);
+   digitalWrite(10, HIGH);
+   delay(100);
+   digitalWrite(10, LOW);
+  delay(100);
+    digitalWrite(9, HIGH);
+  delay(100);
+  digitalWrite(9, LOW);
+  delay(100);
+}

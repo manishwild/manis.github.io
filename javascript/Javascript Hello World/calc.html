@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calc</title>
+        <script>
+        function mat12add(){
+            /*the next time will show a popup message*/
+            //this is single line comment
+            let n1=document.getElementById("num1").value;
+            let n2=document.getElementById("num2").value;
+            
+            //alert(Number (n1)+Number(n2));
+            document.getElementById("result").value=Number (n1)+Number(n2);
+            
+
+
+        }
+        function mat12sub(){
+            /*the next time will show a popup message*/
+            //this is single line comment
+            let n1=document.getElementById("num1").value;
+            let n2=document.getElementById("num2").value;
+            //alert(Number (n1)-Number(n2));
+            document.getElementById("result").value=Number (n1)-Number(n2);
+            
+            
+
+
+        }
+        function mat12mul(){
+            /*the next time will show a popup message*/
+            //this is single line comment
+            let n1=document.getElementById("num1").value;
+            let n2=document.getElementById("num2").value;
+            //alert(Number (n1)*Number(n2));
+            document.getElementById("result").value=Number (n1)*Number(n2);
+            
+
+
+        }
+        function mat12div(){
+            /*the next time will show a popup message*/
+            //this is single line comment
+            let n1=document.getElementById("num1").value;
+            let n2=document.getElementById("num2").value;
+            //alert(Number (n1)/Number(n2));
+            document.getElementById("result").value=Number (n1)/Number(n2);
+            
+            
+
+
+        }
+        </script>
+</head>
+<body>
+    <input id="num1"type="number" placeholder="First Number">
+    <input id="num2"type="number" placeholder="Second Number">
+    <button onclick="mat12add()">+</button>
+    <button onclick="mat12sub()">-</button>
+    <button onclick="mat12mul()">X</button>
+    <button onclick="mat12div()">/</button>
+
+    <input type="text" id="result" placeholder="Result">
+
+    
+    
+</body>
+</html>

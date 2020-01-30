@@ -1,0 +1,84 @@
+/*HTML ELEMENTS*/
+
+body{
+    margin: 0;
+    padding: 20px;
+    background-color: mintcream;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+/*LINKSTYLES*/
+a:link{
+    color: tan;
+    text-decoration: none;
+
+}
+a:visited{
+    color: violet;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
+a :active{
+    color: silver;
+    background-color: skyblue;
+
+}
+p{
+    text-align: justify;
+}
+/*HEADER STYLES*/
+h1,
+h2 {
+   text-align: center;
+}
+
+
+
+
+    /*CUSTOM CSS CLASSES*/
+    .topnav{
+        margin: -20px -20px 0 -20px;
+        padding: 0px;
+    
+
+        list-style-type: none;
+        background-color: slategrey;
+        text-align: center;
+
+    }
+    .topnav li {
+        
+        display:inline-block;
+        width: 22%;
+
+        outline: 1px dotted red;
+    }
+
+    .topnav li a {
+        display:inline-block;
+        padding: 20px 30px;
+        color: snow;
+        
+       
+
+    }
+    .topnav li a:hover{
+        color: slategray;
+        
+        background-color: snow;
+
+    }
+    .column{
+        width: 50%;
+        float: left;
+        box-sizing: border-box;
+    }
+    /*UTILITY CLASSES*/
+    .clearfix{
+        clear: both;
+    }
+    .pad-rt-10{padding-right: 10px;}
+    .pad-lt-10{padding-left: 10px;}
